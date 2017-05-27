@@ -6,26 +6,41 @@
 	<link rel="shortcut icon" href="favicon.ico" type="ICON/mi.png" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>'Pablo Emmanuel De Leo' </title>
-
-	<link href="https://fonts.googleapis.com/css?family=Nunito|Roboto|Source+Serif+Pro" rel="stylesheet">
-	<link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/fonts.css">
-	<link rel="stylesheet" href="CSS/normalize.css" />
-	<link rel="stylesheet" href="CSS/style.css" />
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Nunito|Roboto|Source+Serif+Pro" rel="stylesheet">
+	<link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet"> -->
+	<!-- <link rel="stylesheet" href="css/fonts.css"> -->
+	<!-- <link rel="stylesheet" href="CSS/normalize.css" /> -->
+	<link rel="stylesheet" href="styles/css/style.css" />
 </head>
 	<body>
-		<div class="barra">
-			<nav class="navbar">
-				<ul>
-					<li> <a href="reel.php" title="REEL">reel</a></li>
-					<li> <a href="work.php" title="WORK">work</a></li>
-					<li> <a href="aboutUs.php" title="ABOUT ME">About me</a></li>
-					<li> <a href="contact.php" title="CONTACT">contact</a></li>
-					<li> <a href="news.php" title="NEWS">news</a></li>
-				</ul>
-			</nav>
+		<nav class="navbar navbar-default navbar-fixed-top navbar-custom affix-top">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+					<a class="navbar-brand" href="#">Brand</a>
+				</div>
 
-		</div class="container">
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="nav navbar-nav navbar-right" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">NOTICIAS <span class="sr-only">(current)</span></a></li>
+						<li><a href="#">SERVICIOS</a></li>
+						<li><a href="#">TRABAJOS</a></li>
+						<li><a href="#">NOSOTROS</a></li>
+					</ul>
+				</div>
+				</div>
+				</nav>
+
+		<div class="container">
 		<section class="descripcion">
 			<h1>PABLO EMMANUEL DE LEO</h1>
 			<h2>3D TECHNICAL ARTIST SUPERVISOR</h2>
@@ -34,6 +49,9 @@
 				mi puesto, contando con mi experiencia, su empresa se beneficia, <br> en horas de trabajo, invirtiendo menos dinero, logrando reducir el terciarizado de la misma.<br> Cuento con conocimientos de Programación Avanzada en python enfocado al pipeline
 				en todas las áreas de CG.<br> Bienvenidos a mi página web. </p>
 		</section>
+	</div>
+<div class="container">
+
 
 		<section class="service">
 			<div class="entradaservicio">
@@ -77,6 +95,23 @@
 			</div>
 			</section>
 		</section>
+		</div>
+
+		
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<script >
+		$(function () {
+			$('[data-toggle="tooltip"]').tooltip()})
+			$('.carousel').carousel({
+				interval:2000
+			})
+		</script>
+
 	</body>
 
 </html>

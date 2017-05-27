@@ -1,0 +1,6 @@
+/*setea rectangulo y color*/
+@mixin rectangulo($ancho, $largo,$color){
+  height: $largo;
+  width: $ancho;
+  background: $color;
+}
